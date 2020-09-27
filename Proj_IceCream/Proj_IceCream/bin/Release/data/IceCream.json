@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "name": "Arašidová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 2,
+    "name": "Biela Čokoláda",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 3,
+    "name": "Bubbly",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 4,
+    "name": "Cappuccino",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 5,
+    "name": "Čokoláda",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 6,
+    "name": "Horká mandla",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 7,
+    "name": "Jogurtová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 8,
+    "name": "Karamelová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 9,
+    "name": "Kavová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 10,
+    "name": "Kokosová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 11,
+    "name": "Lieskovy orech",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 12,
+    "name": "Maková",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 13,
+    "name": "Medová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 14,
+    "name": "Pepermint",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 15,
+    "name": "Pistáciová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 16,
+    "name": "Punčová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 17,
+    "name": "Rafaelo",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 18,
+    "name": "Smotanová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 19,
+    "name": "Straciatella",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 20,
+    "name": "Škorica",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 21,
+    "name": "Šmolková",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 22,
+    "name": "Tvarohová",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 23,
+    "name": "Vaječný likér",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 24,
+    "name": "Vanilková",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 25,
+    "name": "Vlašský orech",
+    "type": "M",
+    "amount": 0
+  },
+  {
+    "id": 26,
+    "name": "Coocies",
+    "type": "I",
+    "amount": 0
+  },
+  {
+    "id": 27,
+    "name": "Keksík",
+    "type": "I",
+    "amount": 0
+  },
+  {
+    "id": 28,
+    "name": "Kinderko",
+    "type": "I",
+    "amount": 0
+  },
+  {
+    "id": 29,
+    "name": "Pistáciová 100%",
+    "type": "I",
+    "amount": 0
+  },
+  {
+    "id": 30,
+    "name": "Višna Variegato",
+    "type": "I",
+    "amount": 0
+  },
+  {
+    "id": 31,
+    "name": "Ananás",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 32,
+    "name": "Banán",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 33,
+    "name": "Baza",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 34,
+    "name": "Broskyňa",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 35,
+    "name": "Brusnica",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 36,
+    "name": "Citrón",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 37,
+    "name": "Cola",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 38,
+    "name": "Čerešna",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 39,
+    "name": "Černica",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 40,
+    "name": "Červený melón",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 41,
+    "name": "Čierne ríbezle",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 42,
+    "name": "Čučoriedka",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 43,
+    "name": "Hrozno",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 44,
+    "name": "Hruška",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 45,
+    "name": "Jahoda",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 46,
+    "name": "Kiwi",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 47,
+    "name": "Limetka",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 48,
+    "name": "Malina",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 49,
+    "name": "Mandarínka",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 50,
+    "name": "Mango",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 51,
+    "name": "Marakuja",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 52,
+    "name": "Marhuľa",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 53,
+    "name": "Mojito",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 54,
+    "name": "Papaya",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 55,
+    "name": "Ružový grep",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 56,
+    "name": "Slivka",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 57,
+    "name": "Zázvor",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 58,
+    "name": "Zelené jablko",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 59,
+    "name": "Žltý melón",
+    "type": "F",
+    "amount": 0
+  },
+  {
+    "id": 60,
+    "name": "Čierna baza Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 61,
+    "name": "Čokoláda Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 62,
+    "name": "Čučoriedka Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 63,
+    "name": "Dračie ovocie Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 64,
+    "name": "Jahoda Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 65,
+    "name": "Mango Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 66,
+    "name": "Rakytník Sorbet",
+    "type": "S",
+    "amount": 0
+  },
+  {
+    "id": 67,
+    "name": "Uhorka Sorbet",
+    "type": "S",
+    "amount": 0
+  }
+]
