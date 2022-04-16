@@ -72,7 +72,16 @@ namespace Proj_IceCream
             {
                 foreach (var i in SelectedData.getIceCreamList())
                 {
-                    if (i.gettype() == "M" || i.gettype() == "I")
+                    if (i.gettype() == "M")
+                        amount += i.getamount();
+                }
+                return (amount * 4).ToString();
+            }
+            else if (type == "I")
+            {
+                foreach (var i in SelectedData.getIceCreamList())
+                {
+                    if (i.gettype() == "I")
                         amount += i.getamount();
                 }
                 return (amount * 4).ToString();
@@ -275,7 +284,10 @@ namespace Proj_IceCream
                 iceCreamType = iceCream.gettype();
                 name = iceCream.getname();
                 amount = (float)(iceCream.getamount());
-                priceForUnitWithDPH = (iceCreamType == "S") ? (float)(SelectedData.getPersonalData().getPricesS()) : (float)(SelectedData.getPersonalData().getPricesN());
+                if (iceCreamType == "S") { priceForUnitWithDPH = (float)(SelectedData.getPersonalData().getPricesS()); }
+                else if (iceCreamType == "I") { priceForUnitWithDPH = (float)(SelectedData.getPersonalData().getPricesI()); }
+                else { priceForUnitWithDPH = (float)(SelectedData.getPersonalData().getPricesN()); }
+                //priceForUnitWithDPH = (iceCreamType == "S") ? (float)(SelectedData.getPersonalData().getPricesS()) : (float)(SelectedData.getPersonalData().getPricesN());
                 priceForUnitWithoutDPH = priceForUnitWithDPH / DPHCoefficient;
                 totalPrice = amount * priceForUnitWithDPH;
                 totalPriceWithoutDPH = totalPrice / DPHCoefficient;
@@ -326,9 +338,13 @@ namespace Proj_IceCream
                 wsTemplate.Cells[i, 10].Value2 = sum4.ToString("F") + " €";
                 i++;
                 wsTemplate.Cells[i, 2].Value2 = "Spolu v litroch:";
-                wsTemplate.Cells[i, 5].Value2 = "Mliečne:";
+                wsTemplate.Cells[i, 3].Value2 = "Mliečne:";
+                wsTemplate.Cells[i, 3].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignRight;
+                wsTemplate.Cells[i, 4].Value2 = calculateVolume("M") + "l";
+                wsTemplate.Cells[i, 4].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignLeft;
+                wsTemplate.Cells[i, 5].Value2 = "Prekladané:";
                 wsTemplate.Cells[i, 5].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignRight;
-                wsTemplate.Cells[i, 6].Value2 = calculateVolume("M") + "l";
+                wsTemplate.Cells[i, 6].Value2 = calculateVolume("I") + "l";
                 wsTemplate.Cells[i, 6].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignLeft;
                 wsTemplate.Cells[i, 7].Value2 = "Ovocné:";
                 wsTemplate.Cells[i, 7].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignRight;

@@ -16,9 +16,10 @@
     "email": "vanillia@centrum.sk",
     "email2": "vanillia706@gmail.com",
     "priceN": 22,
+    "priceI": 30,
     "priceS": 40,
-    "lastID": "7",
-    "yearOFLastID": "2020"
+    "lastID": "1",
+    "yearOFLastID": "2022"
   },
   {
     "id": 2,
@@ -37,8 +38,9 @@
     "email": "vanillia@centrum.sk",
     "email2": "vanillia706@gmail.com",
     "priceN": 22,
+    "priceI": 30,
     "priceS": 40,
-    "lastID": "1",
-    "yearOFLastID": "2020"
+    "lastID": "0",
+    "yearOFLastID": "2022"
   }
 ]

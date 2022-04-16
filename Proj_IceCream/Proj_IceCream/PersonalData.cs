@@ -43,6 +43,8 @@ namespace Proj_IceCream
         [DataMember]
         private uint priceN;
         [DataMember]
+        private uint priceI;
+        [DataMember]
         private uint priceS;
         [DataMember]
         private string lastID;
@@ -50,7 +52,7 @@ namespace Proj_IceCream
         private string yearOFLastID;
 
 
-        public PersonalData(uint _id, string _companyName, string _name, string _lastname, string _city, string _street, string _psc, string _state, string _ico, string _dic, string _icdph, string _www, string _phonenumber, string _email, string _email2, uint _priceN, uint _priceS, string _lastID, string _yearOFLastID)
+        public PersonalData(uint _id, string _companyName, string _name, string _lastname, string _city, string _street, string _psc, string _state, string _ico, string _dic, string _icdph, string _www, string _phonenumber, string _email, string _email2, uint _priceN, uint _priceI, uint _priceS, string _lastID, string _yearOFLastID)
         {
             id = _id;
             companyName = _companyName;
@@ -68,6 +70,7 @@ namespace Proj_IceCream
             email = _email;
             email2 = _email2;
             priceN = _priceN;
+            priceI = _priceI;
             priceS = _priceS;
             lastID = _lastID;
             yearOFLastID = _yearOFLastID;
@@ -147,7 +150,12 @@ namespace Proj_IceCream
         {
             return priceN;
         }
-    
+
+        public uint getPricesI()
+        {
+            return priceI;
+        }
+
         public uint getPricesS()
         {
             return priceS;
